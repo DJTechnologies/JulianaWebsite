@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/Juliana.jpeg" id="Juliana" alt="Picture of Juliana" />
+      <h1>Juliana's Blog</h1>
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Past Works</a></li>
+        <li><a href="#">something</a></li>
+      </ul>
+    </header>
+    <article>
+      <h2 class="About-Me">About Me</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+        voluptatibus reprehenderit minus repudiandae delectus autem hic mollitia
+        necessitatibus possimus eligendi numquam pariatur sapiente aut obcaecati
+        aspernatur magnam eveniet quaerat cupiditate labore, accusamus
+        temporibus incidunt iure tempore eos. In ex facere ullam rem itaque
+        corporis natus eius minima? Amet, saepe eum?
+      </p>
+      <button>Like</button>
+    </article>
+    <footer></footer>
+    <script src="./app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery here -->
+    <script>
+      $(".About-Me").on("click", function () {
+        alert("Welcome to my page!");
+      });
+    </script>
+  </body>
+</html>
